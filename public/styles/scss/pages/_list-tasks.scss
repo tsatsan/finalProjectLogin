@@ -1,0 +1,150 @@
+/*  list-tasks page */
+
+.nav-list-tasks{
+	margin-top: 18px;
+	font-family: $ff-base;
+}
+#list-tasks{  
+	background: $c-gray-loose;
+	height: 100%;
+}
+.list-group {
+	margin-top: 40px;
+	overflow-y: scroll;
+    height: 343px;
+    .list-group-item:hover{
+    	background-color: $c-gray;
+    }
+    a {
+    text-decoration: none;
+    color: $c-gray-moreFort;
+	}		
+}
+.addTask {
+	display: flex;
+	justify-content: center;
+	margin-bottom:-54px;
+}
+
+.addTaskPlus {
+	height: 70px;
+	width: 70px;
+	margin-top: -30px;
+}
+
+.date {
+	color: $c-purple;
+	text-align: center;
+	font-family: $ff-base;
+	font-weight: bold;
+}
+
+.user-names {
+	width: 200px;
+}
+
+.arrow-nav {
+	i {
+		color: $c-white;
+	}
+}
+.new-task, .new-task-text {
+	p {
+		color: $c-gray-moreFort;
+		font-weight: 200;
+		padding-top: 5px;
+	}
+}
+
+.brand-name-newTask, .brand-name-itemTask{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    h4 {
+    	width: 100%;
+		margin-top: -25px;
+		justify-content: center;
+		font-weight: $fw-light;
+    }
+}
+
+.create-button{
+	margin-top: 10%;
+	height: 50px;
+	padding:14px 12px;
+	font-weight: bold;
+	a{
+		color: $c-white;
+		font-weight: bold;
+	}
+}
+.calendar {
+	// color: $c-gray;
+	// float: right;
+	// margin-right: 36px;
+	// margin-top: -44px;
+	// @media (min-width: 550px) {
+ //    margin-right: 150px;
+  // }
+  input {
+  	font-size: 25px;
+  }
+}
+.dropdown-position{
+	float: right;
+}
+.completed-task{
+	color: green;
+	padding: 0 5px 0 5px;
+	text-decoration: line-through;
+	display: none;
+}
+.matched {
+	font-weight: $fw-light;
+	color: $c-gray;
+}
+
+.logo-name {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-family: $ff-logo;
+}
+.pager-arrows{
+	display: flex;
+	justify-content: space-between;
+	background-color: $c-purple;
+}
+.user-name {
+	color: $c-white;
+	margin: 50px 70px 0 70px;
+	text-align: center;
+}
+#check1{
+	width: 60px;
+	color: $c-white;
+}
+
+.title>a{
+	color: $c-black;
+}
+.icon {
+	margin-right: 6px;
+}
+.login-list-tasks{
+	margin: 16px 3px;
+}
+.navbar-brand1 {
+	display: none;
+	@media (min-width: $bp-small){
+		display: flex;
+		align-items: center;
+		color: white;
+	}
+padding: 0 0 0 12px;
+	
+}
+.completed{
+text-decoration: line-through;
+}
